@@ -1,11 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Hero = () => {
-  return (
-    <div>
-      <h1>Hero</h1>
-    </div>
-  )
-}
+const Hero = () => <h1>Hero</h1>;
 
-export default Hero
+export default Hero;

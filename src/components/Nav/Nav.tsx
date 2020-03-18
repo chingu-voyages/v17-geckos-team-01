@@ -1,13 +1,19 @@
 import React from 'react';
-import "./Nav.module.scss"
+import { Layout, Menu } from 'antd';
+import './Nav.module.scss';
 
-const Nav = () => (
-  <div className="container">
-    <ul>
-      <li>Button 1</li>
-      <li>Button 2</li>
-    </ul>
-  </div>
+const { Header } = Layout;
+
+const Nav: React.FC = () => (
+  <>
+    <Header>
+      <Menu mode="horizontal" defaultSelectedKeys={['1']}>
+        <Menu.Item key="1">nav 1</Menu.Item>
+        <Menu.Item key="2">nav 2</Menu.Item>
+        <Menu.Item key="3">nav 3</Menu.Item>
+      </Menu>
+    </Header>
+  </>
 );
 
 export default Nav;
