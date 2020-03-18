@@ -6,7 +6,8 @@
     "mgmcdermott.vscode-language-babel",
     "wix.vscode-import-cost",
     "pflannery.vscode-versionlens",
-    "visualstudioexptteam.vscodeintellicode"
+    "visualstudioexptteam.vscodeintellicode",
+    "esbenp.prettier-vscode"
   ],
   "unwantedRecommendations": []
 }
