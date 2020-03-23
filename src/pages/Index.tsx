@@ -1,11 +1,11 @@
 import React from 'react';
 import './Index.module.scss';
-import { Nav } from '../component.exports';
+import { Nav, CustomThemeProvider } from '../component.exports';
 
 const Index: React.FC = () => (
-  <>
-    <Nav />
-  </>
+  <CustomThemeProvider>
+    <Nav navBarTitle="Team Gecko Nav" />
+  </CustomThemeProvider>
 );
 
 export default Index;
