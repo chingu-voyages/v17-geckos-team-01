@@ -7,7 +7,8 @@
     "wix.vscode-import-cost",
     "pflannery.vscode-versionlens",
     "visualstudioexptteam.vscodeintellicode",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "naumovs.color-highlight"
   ],
   "unwantedRecommendations": []
 }
