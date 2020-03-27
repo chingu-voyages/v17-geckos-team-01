@@ -1,0 +1,30 @@
+.container {
+  color: white;
+  background-color: transparent;
+  padding-left: 200px;
+  white-space: pre-wrap;
+}
+
+.searchBar {
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+  width: 550px;
+}
+
+.inputField {
+  width: 100%;
+}
+
+.divider {
+  height: 20px;
+  margin: 4px;
+}
+
+.buttonBackground {
+  background-color: #a284e0;
+}
+
+.iconButton {
+  padding: 10px;
+}
