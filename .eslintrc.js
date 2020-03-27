@@ -1,9 +1,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
+  plugins: ['jsdoc'],
   extends: [
     'plugin:react/recommended', // Uses the recommended rules from @eslint-plugin-react
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from @typescript-eslint/eslint-plugin
     'plugin:prettier/recommended',
+    'plugin:jsdoc/recommended',
   ],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
