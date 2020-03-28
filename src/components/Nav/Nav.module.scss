@@ -1,0 +1,30 @@
+.menu {
+  color: white;
+}
+
+.appBar {
+  display: flex;
+}
+
+.leftSide {
+  flex: 1;
+}
+
+.rightSide {
+  margin-left: auto;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  width: 15px;
+  height: auto;
+  display: inline-block;
+}
