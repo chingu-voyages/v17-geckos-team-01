@@ -33,6 +33,9 @@ const Nav: React.FC<{ navBarTitle: string }> = ({ navBarTitle = '17Geckos Real E
             <Link href="">
               <a className={styles.links}>Nearby Agents</a>
             </Link>
+            <Link href="/listings">
+              <a className={styles.links}>Listings</a>
+            </Link>
             <div className={styles.divider}></div>
             <Button variant="outlined" color="inherit">
               Log in
