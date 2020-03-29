@@ -1,21 +1,16 @@
-import fetch from 'isomorphic-unfetch';
-import React from 'react';
-import { NextPage } from 'next';
+import { Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { Container } from '@material-ui/core';
+import fetch from 'isomorphic-unfetch';
+import { NextPage } from 'next';
+import React from 'react';
 import JSONPretty from 'react-json-pretty';
+import { Nav } from '../../component.exports';
 
 const useStyles = makeStyles({
   root: {
     background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-    border: 1,
-    borderRadius: 3,
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
     color: 'white',
-    padding: '0 30px',
-    margin: 20,
-    //margin: '0 auto',
-    display: 'block',
   },
 });
 
@@ -25,16 +20,36 @@ const Post: NextPage = ({ details }: any) => {
 
   return (
     <>
-      <Container maxWidth="lg">
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.address}></JSONPretty>
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.building.summary}></JSONPretty>
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.summary}></JSONPretty>
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.lot}></JSONPretty>
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.school}></JSONPretty>
-        <JSONPretty className={classes.root} id="json-pretty" data={pdetails.address}></JSONPretty>
+      <Nav navBarTitle={pdetails.address.line1} />
+      <Grid container spacing={2}>
+        <Grid item xs>
+          <Paper className={classes.root} elevation={1}>
+            <JSONPretty id="json-pretty" data={pdetails.address}></JSONPretty>
+          </Paper>
+        </Grid>
+        <Grid item xs>
+          <Paper className={classes.root} elevation={1}>
+            <JSONPretty id="json-pretty" data={pdetails.summary}></JSONPretty>
+          </Paper>
+        </Grid>
+        <Grid item xs>
+          <Paper className={classes.root} elevation={1}>
+            <JSONPretty id="json-pretty" data={pdetails.lot}></JSONPretty>
+          </Paper>
+        </Grid>
+        <Grid item xs>
+          <Paper className={classes.root} elevation={1}>
+            <JSONPretty id="json-pretty" data={pdetails.school}></JSONPretty>
+          </Paper>
+        </Grid>
 
-        {/* Check if we require more details from other api's */}
-      </Container>
+        {/* <JSONPretty id="json-pretty" data={pdetails.building.summary}></JSONPretty>
+        <JSONPretty id="json-pretty" data={pdetails.summary}></JSONPretty>
+        <JSONPretty id="json-pretty" data={pdetails.lot}></JSONPretty>
+        <JSONPretty id="json-pretty" data={pdetails.school}></JSONPretty>
+        <JSONPretty id="json-pretty" data={pdetails.address}></JSONPretty> */}
+      </Grid>
+      {/* Check if we require more details from other api's */}
     </>
   );
 };

@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "files.trimTrailingWhitespace": true,
   "editor.formatOnSave": true,
-  "typescript.validate.enable": true,
+  "typescript.validate.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
