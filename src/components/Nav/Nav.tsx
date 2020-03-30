@@ -2,7 +2,7 @@ import { AppBar, Button, Toolbar, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Link from 'next/link';
 import React from 'react';
-import styles from './Nav.module.scss';
+import styles from './Nav.module.css';
 
 // Makes use of the hooks style API
 const useStyles = makeStyles({
@@ -20,11 +20,13 @@ const Nav: React.FC<{ navBarTitle: string }> = ({ navBarTitle = '17Geckos Real E
 
   return (
     <>
-      <AppBar className={styles.appBar} color="transparent" position="static" elevation={0}>
+      <AppBar className={styles.appBar} color="transparent" position="static" elevation={1}>
         <Toolbar>
           <div className={styles.leftSide}>
             <Typography className={classes.flex} variant="h6" color="inherit">
-              {navBarTitle}
+              <Link href="/">
+                <a> {navBarTitle}</a>
+              </Link>
             </Typography>
           </div>
           <div className={styles.rightSide}>

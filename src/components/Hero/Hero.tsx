@@ -1,7 +1,7 @@
 import { IconButton, InputBase, Paper } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import React from 'react';
-import styles from './Hero.module.scss';
+import styles from './Hero.module.css';
 
 const searchButtonClickHandler = (e: React.MouseEvent<HTMLElement>): void => {
   e.preventDefault();
