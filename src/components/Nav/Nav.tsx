@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-const Nav: React.FC<{ navBarTitle: string }> = ({ navBarTitle = '17Geckos Real Estate' }) => {
+const Nav: React.FC<{ navBarTitle?: string }> = ({ navBarTitle = '17Geckos Real Estate' }) => {
   const classes = useStyles();
 
   return (

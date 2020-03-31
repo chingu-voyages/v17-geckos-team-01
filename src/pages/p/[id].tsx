@@ -56,8 +56,13 @@ const Post: NextPage = ({ details }: any) => {
 
 Post.getInitialProps = async function (context) {
   const { id } = context.query;
+  // 20095379556021&426 LOGISTICS DR&CHEYENNE, WY 82009
+  // regex split on &
+  const [propertyId, address, cityStateZip] = (id as string).split('&');
+
+  console.log(propertyId, address, cityStateZip);
   const res = await fetch(
-    `https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detailwithschools?id=${id}`,
+    `https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detailwithschools?id=${propertyId}`,
     { headers: { accept: 'application/json', apikey: '43fdb0bba16b6d9bb945439813e6fcac' } },
   );
 
