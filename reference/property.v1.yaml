@@ -3195,40 +3195,48 @@ components:
     propertyAddress:
       title: propertyAddress
       allOf:
-        - items:
-            type: object
-            properties:
-              identifier:
+        - properties:
+            property:
+              type: array
+              items:
                 type: object
                 properties:
-                  obPropId:
-                    type: number
-                    example: '32843222712119'
-                    minimum: 32843222712119
-                    maximum: 32843222714000
-                    multipleOf: 1
-              address:
-                type: object
-                properties:
-                  country:
-                    type: string
-                    default: US
-                    example: US
-                    minLength: 2
-                    maxLength: 2
-                  countrySubd:
-                    type: string
-                    example: FL
-                    minLength: 2
-                    maxLength: 2
-                    pattern: '^((A[AEKLPRSZ])|(C[AOT])|(D[EC])|(F[LM])|(G[AU])|(HI)|(I[ADLN])|(K[SY])|(LA)|(M[ADEHINOST])|(N[CDEHJMVY])|(MP)|(O[HKR])|(P[ARW])|(RI)|(S[CD])|(T[NX])|(UT)|(V[AIT])|(W[AIVY]))$'
-                  line1:
-                    type: string
-                    pattern: "\\d+\\w+\\s\\w+\\s\\w+"
-                  line2:
-                    type: string
-                    pattern: "(\\w*,\\s\\w*\\s\\w*)"
-                  locality:
-                    type: string
-                    pattern: "^[A-Za-z]+(\\s[A-Za-z]+)?\\s*,*\\s*[A-Za-z]+(\\s[A-Za-z]+)?\\s*$"
-      type: array
+                  identifier:
+                    type: object
+                    properties:
+                      obPropId:
+                        type: integer
+                        format: int32
+                        example: '32843222712119'
+                        minimum: 32843222712119
+                        maximum: 32843222714000
+                  address:
+                    type: object
+                    properties:
+                      country:
+                        type: string
+                        default: US
+                        minLength: 2
+                        maxLength: 2
+                        pattern: US
+                      countrySubd:
+                        type: string
+                        default: FL
+                        example: FL
+                        minLength: 2
+                        maxLength: 2
+                        pattern: '^((A[AEKLPRSZ])|(C[AOT])|(D[EC])|(F[LM])|(G[AU])|(HI)|(I[ADLN])|(K[SY])|(LA)|(M[ADEHINOST])|(N[CDEHJMVY])|(MP)|(O[HKR])|(P[ARW])|(RI)|(S[CD])|(T[NX])|(UT)|(V[AIT])|(W[AIVY]))$'
+                      line1:
+                        type: string
+                        default: 10589 Senegal Dr
+                        example: 10589 Senegal Dr
+                        pattern: "([a-z ]{2,}\\s{0,1})(\\d{0,3})(\\s{0,1}\\S{2,})?"
+                      line2:
+                        type: string
+                      locality:
+                        type: string
+                      oneLine:
+                        type: string
+                      postal1:
+                        type: string
+      type: object
