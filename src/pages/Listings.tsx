@@ -14,6 +14,8 @@ import { NextPage } from 'next';
 import Link from 'next/link';
 import React from 'react';
 import { Nav } from '../component.exports';
+import { render } from 'react-dom';
+import getKey from '../ApiKey.js';
 
 const useStyles = makeStyles({
   root: {
@@ -44,7 +46,10 @@ const Listings: NextPage = ({ data }: any) => {
           <Grid style={{ maxWidth: 345 }} key={property.identifier.obPropId} item sm={3} xs={12}>
             <Card className={classes.paper} elevation={1}>
               <CardActionArea>
-                <Link href="/p/[id]" as={`/p/${property.identifier.obPropId}`}>
+                <Link
+                  href="/p/[id]"
+                  as={`/p/${property.identifier.obPropId}&${property.address.line1}&${property.address.line2}`}
+                >
                   <CardHeader subheader={property.address.line2} title={property.address.line1}>
                     <a>{property.address.line1}</a>
                   </CardHeader>
@@ -68,12 +73,17 @@ const Listings: NextPage = ({ data }: any) => {
 };
 
 Listings.getInitialProps = async function () {
-  const address = await fetch('http://127.0.0.1:3100/address', {
-    headers: { accept: 'application/json', apikey: '236e138b3c80fc33a9245df42338e83e' },
-  });
-  const summary = await fetch('http://127.0.0.1:3100/detailwithschools?id=16237759912033', {
-    headers: { accept: 'application/json', apikey: '236e138b3c80fc33a9245df42338e83e' },
-  });
+  const APIKey = getKey();
+  console.log(`API KEY IS ${APIKey}`);
+  const address = await fetch(
+    'http://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=82009&page=1&pagesize=10',
+    { headers: { accept: 'application/json', apikey: APIKey } },
+  );
+
+  const summary = await fetch(
+    'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detailwithschools?id=16237759912033',
+    { headers: { accept: 'application/json', apikey: APIKey } },
+  );
   const addressData = await address.json();
   const summaryData = await summary.json();
 
@@ -88,3 +98,4 @@ Listings.getInitialProps = async function () {
 };
 
 export default Listings;
+// listings/[listing].tsx/property/[id].tsx
