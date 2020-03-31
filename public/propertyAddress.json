@@ -1,0 +1,3296 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 10000,
+    "page": 1,
+    "pagesize": 100
+  },
+  "property": [
+    {
+      "identifier": {
+        "obPropId": 32843222712119,
+        "fips": "12119",
+        "apn": "G34U033",
+        "apnOrig": "G34U033",
+        "attomId": 328432227
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "1773 BLACKWELL LN",
+        "line2": "PENSACOLA FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaZip",
+        "oneLine": "1773 BLACKWELL LN, PENSACOLA FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0.0,
+        "latitude": "28.852000",
+        "longitude": "-81.987900",
+        "distance": 0.0,
+        "geoid": "CO12119, CS1293666, PL1271625"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 32843222812119,
+        "fips": "12119",
+        "apn": "G34U034",
+        "apnOrig": "G34U034",
+        "attomId": 328432228
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "1775 BLACKWELL LN",
+        "line2": "PENSACOLA FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaZip",
+        "oneLine": "1775 BLACKWELL LN, PENSACOLA FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0.0,
+        "latitude": "28.852000",
+        "longitude": "-81.987900",
+        "distance": 0.0,
+        "geoid": "CO12119, CS1293666, PL1271625"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 32843222912119,
+        "fips": "12119",
+        "apn": "G34U035",
+        "apnOrig": "G34U035",
+        "attomId": 328432229
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "1779 BLACKWELL LN",
+        "line2": "PENSACOLA FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaZip",
+        "oneLine": "1779 BLACKWELL LN, PENSACOLA FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0.0,
+        "latitude": "28.852000",
+        "longitude": "-81.987900",
+        "distance": 0.0,
+        "geoid": "CO12119, CS1293666, PL1271625"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 32843223012119,
+        "fips": "12119",
+        "apn": "G34U036",
+        "apnOrig": "G34U036",
+        "attomId": 328432230
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "1783 BLACKWELL LN",
+        "line2": "PENSACOLA FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaZip",
+        "oneLine": "1783 BLACKWELL LN, PENSACOLA FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0.0,
+        "latitude": "28.852000",
+        "longitude": "-81.987900",
+        "distance": 0.0,
+        "geoid": "CO12119, CS1293666, PL1271625"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16047795312033,
+        "fips": "12033",
+        "apn": "171S303000003026",
+        "apnOrig": "171S303000003026",
+        "attomId": 160477953
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7200 KIPLING ST",
+        "line2": "PENSACOLA, FL 32504",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7200 KIPLING ST, PENSACOLA, FL 32504",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.501032",
+        "longitude": "-87.206821",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0000135599, PL1222275, SB0000078250, SB0000078251, SB0000078257, ZI32504"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16293697612033,
+        "fips": "12033",
+        "apn": "171S303000004026",
+        "apnOrig": "171S303000004026",
+        "attomId": 162936976
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7215 KIPLING ST B",
+        "line2": "PENSACOLA, FL 32504",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7215 KIPLING ST B, PENSACOLA, FL 32504",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.501096",
+        "longitude": "-87.207136",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0000135599, PL1222275, SB0000078250, SB0000078251, SB0000078257, ZI32504"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5364631112033,
+        "fips": "12033",
+        "apn": "081S291004005006",
+        "apnOrig": "081S291004005006",
+        "attomId": 53646311
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "133 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "133 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502508",
+        "longitude": "-87.175789",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4001014212033,
+        "fips": "12033",
+        "apn": "081S291004006006",
+        "apnOrig": "081S291004006006",
+        "attomId": 40010142
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "131 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "131 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502518",
+        "longitude": "-87.175554",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5364631012033,
+        "fips": "12033",
+        "apn": "081S291004004006",
+        "apnOrig": "081S291004004006",
+        "attomId": 53646310
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "135 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "135 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502557",
+        "longitude": "-87.175983",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 879571212033,
+        "fips": "12033",
+        "apn": "081S291004003006",
+        "apnOrig": "081S291004003006",
+        "attomId": 8795712
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "137 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "137 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502610",
+        "longitude": "-87.176140",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5135053212033,
+        "fips": "12033",
+        "apn": "081S291004007006",
+        "apnOrig": "081S291004007006",
+        "attomId": 51350532
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "129 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "129 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502648",
+        "longitude": "-87.175360",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5165181712033,
+        "fips": "12033",
+        "apn": "081S291004001003",
+        "apnOrig": "081S291004001003",
+        "attomId": 51651817
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "185 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "185 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502652",
+        "longitude": "-87.170421",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5364630912033,
+        "fips": "12033",
+        "apn": "081S291004001006",
+        "apnOrig": "081S291004001006",
+        "attomId": 53646309
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "141 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "141 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502694",
+        "longitude": "-87.172879",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1649030812033,
+        "fips": "12033",
+        "apn": "081S291004003003",
+        "apnOrig": "081S291004003003",
+        "attomId": 16490308
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "181 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "181 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502743",
+        "longitude": "-87.173027",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1649030712033,
+        "fips": "12033",
+        "apn": "081S291004004003",
+        "apnOrig": "081S291004004003",
+        "attomId": 16490307
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "179 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "179 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502746",
+        "longitude": "-87.172877",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4303880012033,
+        "fips": "12033",
+        "apn": "081S291004004005",
+        "apnOrig": "081S291004004005",
+        "attomId": 43038800
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "136 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "136 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502777",
+        "longitude": "-87.175675",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601233812033,
+        "fips": "12033",
+        "apn": "081S291004018006",
+        "apnOrig": "081S291004018006",
+        "attomId": 26012338
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "105 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "105 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6656",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502776",
+        "longitude": "-87.173608",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814212033,
+        "fips": "12033",
+        "apn": "081S291004010003",
+        "apnOrig": "081S291004010003",
+        "attomId": 1638142
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "167 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "167 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502767",
+        "longitude": "-87.171963",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1029429412033,
+        "fips": "12033",
+        "apn": "081S291004005005",
+        "apnOrig": "081S291004005005",
+        "attomId": 10294294
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "134 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "134 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502762",
+        "longitude": "-87.175658",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 55957512033,
+        "fips": "12033",
+        "apn": "081S291004009003",
+        "apnOrig": "081S291004009003",
+        "attomId": 559575
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "169 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "169 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502761",
+        "longitude": "-87.172126",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814312033,
+        "fips": "12033",
+        "apn": "081S291004008003",
+        "apnOrig": "081S291004008003",
+        "attomId": 1638143
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "171 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "171 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502758",
+        "longitude": "-87.172276",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814512033,
+        "fips": "12033",
+        "apn": "081S291004007003",
+        "apnOrig": "081S291004007003",
+        "attomId": 1638145
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "173 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "173 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502755",
+        "longitude": "-87.172426",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814912033,
+        "fips": "12033",
+        "apn": "081S291004006003",
+        "apnOrig": "081S291004006003",
+        "attomId": 1638149
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "175 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "175 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502752",
+        "longitude": "-87.172576",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1613293812033,
+        "fips": "12033",
+        "apn": "081S291004005003",
+        "apnOrig": "081S291004005003",
+        "attomId": 16132938
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "177 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "177 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502749",
+        "longitude": "-87.172727",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814412033,
+        "fips": "12033",
+        "apn": "081S291004011003",
+        "apnOrig": "081S291004011003",
+        "attomId": 1638144
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "165 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "165 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502782",
+        "longitude": "-87.171814",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1417822712033,
+        "fips": "12033",
+        "apn": "081S291004008006",
+        "apnOrig": "081S291004008006",
+        "attomId": 14178227
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "127 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "127 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502778",
+        "longitude": "-87.175313",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 722303012033,
+        "fips": "12033",
+        "apn": "081S291004015006",
+        "apnOrig": "081S291004015006",
+        "attomId": 7223030
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "113 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "113 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502790",
+        "longitude": "-87.174275",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 410492212033,
+        "fips": "12033",
+        "apn": "081S291004016006",
+        "apnOrig": "081S291004016006",
+        "attomId": 4104922
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "111 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "111 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502788",
+        "longitude": "-87.174106",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5364631212033,
+        "fips": "12033",
+        "apn": "081S291004003005",
+        "apnOrig": "081S291004003005",
+        "attomId": 53646312
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "138 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "138 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502786",
+        "longitude": "-87.175802",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601233712033,
+        "fips": "12033",
+        "apn": "081S291004017006",
+        "apnOrig": "081S291004017006",
+        "attomId": 26012337
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "107 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "107 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6656",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502784",
+        "longitude": "-87.173768",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 960001012033,
+        "fips": "12033",
+        "apn": "081S291004011006",
+        "apnOrig": "081S291004011006",
+        "attomId": 9600010
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "121 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "121 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502798",
+        "longitude": "-87.174951",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814812033,
+        "fips": "12033",
+        "apn": "081S291004012003",
+        "apnOrig": "081S291004012003",
+        "attomId": 1638148
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "163 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "163 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502797",
+        "longitude": "-87.171665",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4943411112033,
+        "fips": "12033",
+        "apn": "081S291004012006",
+        "apnOrig": "081S291004012006",
+        "attomId": 49434111
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "119 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "119 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502796",
+        "longitude": "-87.174782",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601234012033,
+        "fips": "12033",
+        "apn": "081S291004013006",
+        "apnOrig": "081S291004013006",
+        "attomId": 26012340
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "117 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "117 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502794",
+        "longitude": "-87.174613",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4003189512033,
+        "fips": "12033",
+        "apn": "081S291004014006",
+        "apnOrig": "081S291004014006",
+        "attomId": 40031895
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "115 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "115 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502792",
+        "longitude": "-87.174444",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 3004024412033,
+        "fips": "12033",
+        "apn": "091S293025000140",
+        "apnOrig": "091S293025000140",
+        "attomId": 30040244
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7634 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7634 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502954",
+        "longitude": "-87.180410",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, RS0000136387, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4948845112033,
+        "fips": "12033",
+        "apn": "091S293025000150",
+        "apnOrig": "091S293025000150",
+        "attomId": 49488451
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7626 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7626 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502962",
+        "longitude": "-87.180583",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 14272731812033,
+        "fips": "12033",
+        "apn": "081S291004014003",
+        "apnOrig": "081S291004014003",
+        "attomId": 142727318
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "159 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "159 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502828",
+        "longitude": "-87.171366",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 983416212033,
+        "fips": "12033",
+        "apn": "081S291004015003",
+        "apnOrig": "081S291004015003",
+        "attomId": 9834162
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "157 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "157 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502843",
+        "longitude": "-87.171217",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4938877212033,
+        "fips": "12033",
+        "apn": "081S291004016003",
+        "apnOrig": "081S291004016003",
+        "attomId": 49388772
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "155 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "155 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502858",
+        "longitude": "-87.171068",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4308166812033,
+        "fips": "12033",
+        "apn": "081S291004001005",
+        "apnOrig": "081S291004001005",
+        "attomId": 43081668
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "142 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "142 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502870",
+        "longitude": "-87.176040",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5363295112033,
+        "fips": "12033",
+        "apn": "081S291004002006",
+        "apnOrig": "081S291004002006",
+        "attomId": 53632951
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "139 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "139 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6660",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502874",
+        "longitude": "-87.172871",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 838280512033,
+        "fips": "12033",
+        "apn": "081S291004017003",
+        "apnOrig": "081S291004017003",
+        "attomId": 8382805
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "153 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "153 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502879",
+        "longitude": "-87.170912",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705112033,
+        "fips": "12033",
+        "apn": "081S291004020003",
+        "apnOrig": "081S291004020003",
+        "attomId": 160647051
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "147 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "147 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6662",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502890",
+        "longitude": "-87.173419",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705012033,
+        "fips": "12033",
+        "apn": "081S291004018003",
+        "apnOrig": "081S291004018003",
+        "attomId": 160647050
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "151 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "151 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6662",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502902",
+        "longitude": "-87.170764",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5364631312033,
+        "fips": "12033",
+        "apn": "081S291004002005",
+        "apnOrig": "081S291004002005",
+        "attomId": 53646313
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "140 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "140 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502825",
+        "longitude": "-87.175904",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 321325612033,
+        "fips": "12033",
+        "apn": "081S291004006005",
+        "apnOrig": "081S291004006005",
+        "attomId": 3213256
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "132 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "132 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502820",
+        "longitude": "-87.175612",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 3089790912033,
+        "fips": "12033",
+        "apn": "081S291004013003",
+        "apnOrig": "081S291004013003",
+        "attomId": 30897909
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "161 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "161 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6663",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502812",
+        "longitude": "-87.171515",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1086438812033,
+        "fips": "12033",
+        "apn": "081S291004009006",
+        "apnOrig": "081S291004009006",
+        "attomId": 10864388
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "125 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "125 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502802",
+        "longitude": "-87.175290",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4947355412033,
+        "fips": "12033",
+        "apn": "081S291004010006",
+        "apnOrig": "081S291004010006",
+        "attomId": 49473554
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "123 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "123 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6658",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502800",
+        "longitude": "-87.175120",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4308373112033,
+        "fips": "12033",
+        "apn": "081S291004001004",
+        "apnOrig": "081S291004001004",
+        "attomId": 43083731
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "182 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "182 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503017",
+        "longitude": "-87.173033",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1086438712033,
+        "fips": "12033",
+        "apn": "081S291004002004",
+        "apnOrig": "081S291004002004",
+        "attomId": 10864387
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "180 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "180 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503020",
+        "longitude": "-87.172907",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 722302812033,
+        "fips": "12033",
+        "apn": "081S291004004004",
+        "apnOrig": "081S291004004004",
+        "attomId": 7223028
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "176 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "176 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503025",
+        "longitude": "-87.172654",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1437912212033,
+        "fips": "12033",
+        "apn": "081S291004020002",
+        "apnOrig": "081S291004020002",
+        "attomId": 14379122
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "187 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "187 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6652",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503025",
+        "longitude": "-87.170794",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1029429612033,
+        "fips": "12033",
+        "apn": "081S291004007005",
+        "apnOrig": "081S291004007005",
+        "attomId": 10294296
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "130 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "130 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502988",
+        "longitude": "-87.175522",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4919418812033,
+        "fips": "12033",
+        "apn": "091S293025000130",
+        "apnOrig": "091S293025000130",
+        "attomId": 49194188
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7642 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7642 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502989",
+        "longitude": "-87.180183",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, RS0000136387, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4613398812033,
+        "fips": "12033",
+        "apn": "091S293025000160",
+        "apnOrig": "091S293025000160",
+        "attomId": 46133988
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7618 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7618 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502993",
+        "longitude": "-87.180778",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4919410012033,
+        "fips": "12033",
+        "apn": "091S293026000010",
+        "apnOrig": "091S293026000010",
+        "attomId": 49194100
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7639 GLEN XING",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7639 GLEN XING, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6566",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503007",
+        "longitude": "-87.179256",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0000135445, PL1255925, RS0000137094, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814012033,
+        "fips": "12033",
+        "apn": "081S291004019003",
+        "apnOrig": "081S291004019003",
+        "attomId": 1638140
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "149 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "149 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6662",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.502924",
+        "longitude": "-87.170616",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 722303312033,
+        "fips": "12033",
+        "apn": "081S291004003004",
+        "apnOrig": "081S291004003004",
+        "attomId": 7223033
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "178 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "178 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503022",
+        "longitude": "-87.172780",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705912033,
+        "fips": "12033",
+        "apn": "081S291004000007",
+        "apnOrig": "081S291004000007",
+        "attomId": 160647059
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "100 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "100 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503027",
+        "longitude": "-87.173249",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814612033,
+        "fips": "12033",
+        "apn": "081S291004008004",
+        "apnOrig": "081S291004008004",
+        "attomId": 1638146
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "168 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "168 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503034",
+        "longitude": "-87.172148",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163815012033,
+        "fips": "12033",
+        "apn": "081S291004009004",
+        "apnOrig": "081S291004009004",
+        "attomId": 1638150
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "166 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "166 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503037",
+        "longitude": "-87.172021",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601233512033,
+        "fips": "12033",
+        "apn": "081S291004016005",
+        "apnOrig": "081S291004016005",
+        "attomId": 26012335
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "112 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "112 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503062",
+        "longitude": "-87.174126",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4977434012033,
+        "fips": "12033",
+        "apn": "081S291004013005",
+        "apnOrig": "081S291004013005",
+        "attomId": 49774340
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "118 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "118 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503068",
+        "longitude": "-87.174561",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705712033,
+        "fips": "12033",
+        "apn": "081S291004012005",
+        "apnOrig": "081S291004012005",
+        "attomId": 160647057
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "120 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "120 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503069",
+        "longitude": "-87.174706",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 20907333712033,
+        "fips": "12033",
+        "apn": "081S291004003007",
+        "apnOrig": "081S291004003007",
+        "attomId": 209073337
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "100 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "100 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503027",
+        "longitude": "-87.173249",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1649030912033,
+        "fips": "12033",
+        "apn": "081S291004005004",
+        "apnOrig": "081S291004005004",
+        "attomId": 16490309
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "174 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "174 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503027",
+        "longitude": "-87.172527",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163815112033,
+        "fips": "12033",
+        "apn": "081S291004006004",
+        "apnOrig": "081S291004006004",
+        "attomId": 1638151
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "172 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "172 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503030",
+        "longitude": "-87.172401",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601233612033,
+        "fips": "12033",
+        "apn": "081S291004020005",
+        "apnOrig": "081S291004020005",
+        "attomId": 26012336
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "104 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "104 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6655",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503046",
+        "longitude": "-87.173538",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1939377012033,
+        "fips": "12033",
+        "apn": "081S291004017005",
+        "apnOrig": "081S291004017005",
+        "attomId": 19393770
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "110 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "110 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6655",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503060",
+        "longitude": "-87.173981",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 14272731912033,
+        "fips": "12033",
+        "apn": "081S291004011004",
+        "apnOrig": "081S291004011004",
+        "attomId": 142727319
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "162 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "162 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503061",
+        "longitude": "-87.171783",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2325550812033,
+        "fips": "12033",
+        "apn": "071S293000007008",
+        "apnOrig": "071S293000007008",
+        "attomId": 23255508
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4215 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4215 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503090",
+        "longitude": "-87.182612",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 410492312033,
+        "fips": "12033",
+        "apn": "081S291004008005",
+        "apnOrig": "081S291004008005",
+        "attomId": 4104923
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "128 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "128 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6659",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503076",
+        "longitude": "-87.175286",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1881114912033,
+        "fips": "12033",
+        "apn": "081S291004014004",
+        "apnOrig": "081S291004014004",
+        "attomId": 18811149
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "156 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "156 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503100",
+        "longitude": "-87.171406",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16063729312033,
+        "fips": "12033",
+        "apn": "071S293000010008",
+        "apnOrig": "071S293000010008",
+        "attomId": 160637293
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4245 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4245 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503077",
+        "longitude": "-87.182061",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 14535855312033,
+        "fips": "12033",
+        "apn": "071S293000009008",
+        "apnOrig": "071S293000009008",
+        "attomId": 145358553
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4235 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4235 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503081",
+        "longitude": "-87.182245",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705212033,
+        "fips": "12033",
+        "apn": "081S291004009005",
+        "apnOrig": "081S291004009005",
+        "attomId": 160647052
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "126 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "126 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503075",
+        "longitude": "-87.175141",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 923636512033,
+        "fips": "12033",
+        "apn": "081S291004002003",
+        "apnOrig": "081S291004002003",
+        "attomId": 9236365
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "183 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "183 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6665",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503135",
+        "longitude": "-87.170276",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4613404412033,
+        "fips": "12033",
+        "apn": "091S293026000110",
+        "apnOrig": "091S293026000110",
+        "attomId": 46134044
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7620 GLEN XING",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7620 GLEN XING, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6567",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503137",
+        "longitude": "-87.178737",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0000135445, PL1255925, RS0000137094, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705512033,
+        "fips": "12033",
+        "apn": "081S291004011005",
+        "apnOrig": "081S291004011005",
+        "attomId": 160647055
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "122 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "122 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503071",
+        "longitude": "-87.174851",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 305477912033,
+        "fips": "12033",
+        "apn": "071S293000011008",
+        "apnOrig": "071S293000011008",
+        "attomId": 3054779
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4255 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4255 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503073",
+        "longitude": "-87.181910",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16063729512033,
+        "fips": "12033",
+        "apn": "071S293000012008",
+        "apnOrig": "071S293000012008",
+        "attomId": 160637295
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4265 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4265 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503073",
+        "longitude": "-87.181693",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16064705312033,
+        "fips": "12033",
+        "apn": "081S291004010005",
+        "apnOrig": "081S291004010005",
+        "attomId": 160647053
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "124 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "124 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503073",
+        "longitude": "-87.174996",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 3995314312033,
+        "fips": "12033",
+        "apn": "081S291004012004",
+        "apnOrig": "081S291004012004",
+        "attomId": 39953143
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "160 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "160 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503074",
+        "longitude": "-87.171658",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16063729112033,
+        "fips": "12033",
+        "apn": "071S293000006008",
+        "apnOrig": "071S293000006008",
+        "attomId": 160637291
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "4205 CHEZARAE DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "4205 CHEZARAE DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6550",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503112",
+        "longitude": "-87.182821",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1881114812033,
+        "fips": "12033",
+        "apn": "081S291004015004",
+        "apnOrig": "081S291004015004",
+        "attomId": 18811148
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "154 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "154 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503112",
+        "longitude": "-87.171281",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16042713212033,
+        "fips": "12033",
+        "apn": "091S293025000170",
+        "apnOrig": "091S293025000170",
+        "attomId": 160427132
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7610 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7610 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503116",
+        "longitude": "-87.180989",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 163814712033,
+        "fips": "12033",
+        "apn": "081S291004007004",
+        "apnOrig": "081S291004007004",
+        "attomId": 1638147
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "170 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "170 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6666",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503032",
+        "longitude": "-87.172274",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1086439012033,
+        "fips": "12033",
+        "apn": "081S291004016004",
+        "apnOrig": "081S291004016004",
+        "attomId": 10864390
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "152 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "152 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6661",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503125",
+        "longitude": "-87.171155",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1452625212033,
+        "fips": "12033",
+        "apn": "081S291004010004",
+        "apnOrig": "081S291004010004",
+        "attomId": 14526252
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "164 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "164 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503048",
+        "longitude": "-87.171909",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2583814612033,
+        "fips": "12033",
+        "apn": "081S291004019005",
+        "apnOrig": "081S291004019005",
+        "attomId": 25838146
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "106 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "106 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6655",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503056",
+        "longitude": "-87.173683",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1029429512033,
+        "fips": "12033",
+        "apn": "081S291004018005",
+        "apnOrig": "081S291004018005",
+        "attomId": 10294295
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "108 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "108 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6655",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503059",
+        "longitude": "-87.173836",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 16063724612033,
+        "fips": "12033",
+        "apn": "071S292000008003",
+        "apnOrig": "071S292000008003",
+        "attomId": 160637246
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7521 STARK AVE",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7521 STARK AVE, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6363",
+        "postal3": "C028"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503199",
+        "longitude": "-87.194985",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1255925, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1233871412033,
+        "fips": "12033",
+        "apn": "091S293025000120",
+        "apnOrig": "091S293025000120",
+        "attomId": 12338714
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7650 WOOD STREAM DR",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7650 WOOD STREAM DR, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6564",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503199",
+        "longitude": "-87.179978",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0004447001, PL1255925, RS0000136387, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 1881115012033,
+        "fips": "12033",
+        "apn": "081S291004013004",
+        "apnOrig": "081S291004013004",
+        "attomId": 18811150
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "158 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "158 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6664",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503087",
+        "longitude": "-87.171532",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 974049612033,
+        "fips": "12033",
+        "apn": "081S291004015005",
+        "apnOrig": "081S291004015005",
+        "attomId": 9740496
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "114 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "114 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503064",
+        "longitude": "-87.174271",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2601233912033,
+        "fips": "12033",
+        "apn": "081S291004014005",
+        "apnOrig": "081S291004014005",
+        "attomId": 26012339
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "116 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "116 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6657",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503066",
+        "longitude": "-87.174416",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, SB0000078233, SB0000078241, SB0000078257, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5149377012033,
+        "fips": "12033",
+        "apn": "081S291004017004",
+        "apnOrig": "081S291004017004",
+        "attomId": 51493770
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "150 WILDFLOWER LN",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "150 WILDFLOWER LN, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6661",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503138",
+        "longitude": "-87.171038",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, PL1222275, RS0000134404, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 4951238312033,
+        "fips": "12033",
+        "apn": "091S293026000020",
+        "apnOrig": "091S293026000020",
+        "attomId": 49512383
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "7633 GLEN XING",
+        "line2": "PENSACOLA, FL 32514",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "7633 GLEN XING, PENSACOLA, FL 32514",
+        "postal1": "32514",
+        "postal2": "6566",
+        "postal3": "C017"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.503156",
+        "longitude": "-87.179132",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1292691, DB1200510, MT30002985, ND0000133095, ND0000135445, PL1255925, RS0000137094, ZI32514"
+      },
+      "vintage": {
+        "lastModified": "2018-12-10",
+        "pubDate": "2018-12-22"
+      }
+    }
+  ]
+}

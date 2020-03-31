@@ -1,0 +1,172 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 1,
+    "page": 1,
+    "pagesize": 10
+  },
+  "property": [
+    {
+      "identifier": {
+        "obPropId": 16237759912033,
+        "fips": "12033",
+        "apn": "211N304500054002",
+        "apnOrig": "211N304500054002",
+        "attomId": 162377599
+      },
+      "lot": {
+        "depth": 0,
+        "frontage": 0,
+        "lotnum": "54",
+        "lotsize1": 0.1377,
+        "lotsize2": 5998,
+        "pooltype": "NONE"
+      },
+      "area": {
+        "blockNum": "B",
+        "countrysecsubd": "Escambia County",
+        "countyuse1": "01",
+        "muncode": "ES",
+        "munname": "ESCAMBIA",
+        "srvyRange": "30W",
+        "srvySection": "21",
+        "srvyTownship": "01N",
+        "subdname": "MAPLE OAKS WEST PH TWO",
+        "subdtractnum": "0",
+        "taxcodearea": "0"
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "FL",
+        "line1": "10589 SENEGAL DR",
+        "line2": "PENSACOLA, FL 32534",
+        "locality": "Pensacola",
+        "matchCode": "ExaStr",
+        "oneLine": "10589 SENEGAL DR, PENSACOLA, FL 32534",
+        "postal1": "32534",
+        "postal2": "7912",
+        "postal3": "R042"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0.0,
+        "latitude": "30.556119",
+        "longitude": "-87.281343",
+        "distance": 0.0,
+        "geoid": "CO12033, CS1290390, DB1200510, MT30002985, ND0000133093, ND0004496903, PL1226700, RS0000026505, SB0000078245, SB0000078254, SB0000078258, ZI32534"
+      },
+      "summary": {
+        "absenteeInd": "OWNER OCCUPIED",
+        "propclass": "Single Family Residence / Townhouse",
+        "propsubtype": "HOUSE",
+        "proptype": "SFR",
+        "yearbuilt": 2011,
+        "propLandUse": "SFR",
+        "propIndicator": "10",
+        "legal1": "LT 54 BLK B MAPLE OAKS WEST PHASE TWO PB 18 P 63/63A/B/C OR 7951 P 558 SEC 21/22 T1N R 30W"
+      },
+      "utilities": {
+        "coolingtype": "AC.CENTRAL",
+        "heatingtype": "CENTRAL"
+      },
+      "building": {
+        "size": {
+          "bldgsize": 1668,
+          "grosssize": 1668,
+          "grosssizeadjusted": 1428,
+          "groundfloorsize": 1428,
+          "livingsize": 1428,
+          "sizeInd": "LIVING SQFT ",
+          "universalsize": 1428
+        },
+        "rooms": {
+          "bathfixtures": 0,
+          "baths1qtr": 0,
+          "baths3qtr": 0,
+          "bathscalc": 0.0,
+          "bathsfull": 0,
+          "bathshalf": 0,
+          "bathstotal": 0.0,
+          "beds": 0,
+          "roomsTotal": 0
+        },
+        "interior": {
+          "bsmtsize": 0,
+          "fplccount": 0
+        },
+        "construction": {
+          "constructiontype": "WOOD",
+          "foundationtype": "SLAB",
+          "frameType": "WOOD",
+          "roofcover": "COMPOSITION SHINGLE",
+          "wallType": "VINYL"
+        },
+        "parking": {
+          "garagetype": "ATTACHED GARAGE",
+          "prkgSize": 240,
+          "prkgSpaces": "0",
+          "prkgType": "GARAGE - ATTACHED"
+        },
+        "summary": {
+          "bldgsNum": 1,
+          "bldgType": "HOUSE",
+          "imprType": "HOUSE",
+          "levels": 1,
+          "mobileHomeInd": " ",
+          "quality": "EXCELLENT",
+          "storyDesc": "HOUSE",
+          "unitsCount": "0",
+          "yearbuilteffective": 2011
+        }
+      },
+      "schoolDistrict": {
+        "Obdistrictnumber": "5700040143",
+        "districttype": "REGULAR LOCAL SCHOOL DISTRICT",
+        "districtname": "ESCAMBIA",
+        "districtlatitude": "30.412840",
+        "districtlongitude": "-87.241813"
+      },
+      "school": [
+        {
+          "OBInstID": "01524229",
+          "InstitutionName": "L. D. MCARTHUR ELEMENTARY SCHOOL",
+          "GSTestRating": 2,
+          "gradelevel1lotext": "KINDERGARTEN",
+          "gradelevel1hitext": "5TH GRADE",
+          "Filetypetext": "PUBLIC",
+          "geocodinglatitude": "30.547817",
+          "geocodinglongitude": "-87.269100",
+          "distance": 0.93
+        },
+        {
+          "OBInstID": "00190667",
+          "InstitutionName": "J. M. TATE SENIOR HIGH SCHOOL",
+          "GSTestRating": 3,
+          "gradelevel1lotext": "9TH GRADE",
+          "gradelevel1hitext": "12TH GRADE",
+          "Filetypetext": "PUBLIC",
+          "geocodinglatitude": "30.579665",
+          "geocodinglongitude": "-87.301375",
+          "distance": 2.01
+        },
+        {
+          "OBInstID": "00190825",
+          "InstitutionName": "RANSOM MIDDLE SCHOOL",
+          "GSTestRating": 3,
+          "gradelevel1lotext": "6TH GRADE",
+          "gradelevel1hitext": "8TH GRADE",
+          "Filetypetext": "PUBLIC",
+          "geocodinglatitude": "30.578548",
+          "geocodinglongitude": "-87.344564",
+          "distance": 4.07
+        }
+      ],
+      "vintage": {
+        "lastModified": "2020-1-10",
+        "pubDate": "2020-1-16"
+      }
+    }
+  ]
+}
