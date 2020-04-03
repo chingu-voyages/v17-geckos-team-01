@@ -1,4 +1,3 @@
-import { view } from '@risingstack/react-easy-state';
 import React from 'react';
 import { Hero, Nav } from '../component.exports';
 import styles from './Index.module.css';
@@ -12,4 +11,4 @@ const Index: React.FC = ({}) => {
   );
 };
 
-export default view(Index);
+export default Index;

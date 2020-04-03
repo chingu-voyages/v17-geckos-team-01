@@ -1,19 +1,26 @@
 import { IconButton, InputBase, Paper } from '@material-ui/core';
 import { HomeOutlined } from '@material-ui/icons';
 import SearchIcon from '@material-ui/icons/Search';
-import { view } from '@risingstack/react-easy-state';
-import { useRouter } from 'next/router';
-import React, { useContext } from 'react';
-import { AddressContext } from '../../pages/_app';
+import Router from 'next/router';
+import React, { useState } from 'react';
 import styles from './Hero.module.css';
 
-const Hero: React.FC<{
-  setZipcode?: any;
-  zipCode?: string;
-  fetchData?: any;
-}> = () => {
-  const { setZipcode, zipCode, fetchData } = useContext(AddressContext);
-  const router = useRouter();
+const preventDefault = (func) => (event) => {
+  event.preventDefault();
+  func(event);
+};
+
+const Hero: React.FC = () => {
+  const [query, setQuery] = useState('');
+
+  const handleParam = (setValue) => (event) => setValue(event.target.value);
+
+  const handleSubmit = preventDefault(() => {
+    Router.push({
+      pathname: '/listings',
+      query: { postalcode: query },
+    });
+  });
 
   return (
     <>
@@ -28,32 +35,21 @@ const Hero: React.FC<{
         <br />
         <Paper className={styles.searchBar} component="form">
           <InputBase
-            onChange={(event): void => {
-              setZipcode(event.target.value);
-              console.log(zipCode);
-            }}
+            onChange={handleParam(setQuery)}
             className={styles.inputField}
             placeholder="Zipcode"
             startAdornment={<HomeOutlined />}
+            value={query}
           />
           <div className={styles.buttonBackground}>
-            <IconButton
-              onClick={(event): void => {
-                event.preventDefault();
-                fetchData();
-                router.push('/listings');
-              }}
-              className={styles.iconButton}
-              type="submit"
-            >
+            <IconButton onClick={handleSubmit} className={styles.iconButton} type="submit">
               <SearchIcon className={styles.searchIcon} />
             </IconButton>
           </div>
         </Paper>
-        {zipCode}
       </div>
     </>
   );
 };
 
-export default view(Hero);
+export default Hero;
