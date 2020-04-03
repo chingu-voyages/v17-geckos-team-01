@@ -1,12 +1,15 @@
+import { view } from '@risingstack/react-easy-state';
 import React from 'react';
+import { Hero, Nav } from '../component.exports';
 import styles from './Index.module.css';
-import { Nav, Hero } from '../component.exports';
 
-const Index: React.FC = () => (
-  <div className={styles.topContainer}>
-    <Nav />
-    <Hero />
-  </div>
-);
+const Index: React.FC = ({}) => {
+  return (
+    <div className={styles.topContainer}>
+      <Nav navBarTitle="Real Estate" />
+      <Hero />
+    </div>
+  );
+};
 
-export default Index;
+export default view(Index);

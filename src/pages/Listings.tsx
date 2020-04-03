@@ -9,13 +9,11 @@ import {
   makeStyles,
   Typography,
 } from '@material-ui/core';
-import fetch from 'isomorphic-unfetch';
 import { NextPage } from 'next';
 import Link from 'next/link';
-import React from 'react';
+import React, { useContext } from 'react';
+import { addressData, AddressContext } from '../pages/_app';
 import { Nav } from '../component.exports';
-import { render } from 'react-dom';
-import getKey from '../ApiKey.js';
 
 const useStyles = makeStyles({
   root: {
@@ -27,13 +25,20 @@ const useStyles = makeStyles({
     color: 'white',
     background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
+  grid: {
+    maxWidth: 345,
+    marginTop: '3px',
+  },
 });
 
-const Listings: NextPage = ({ data }: any) => {
+const Listings: NextPage = () => {
   const classes = useStyles();
+  const { propertyAddressData } = useContext(AddressContext);
+
   return (
     <>
-      <Nav navBarTitle="Listings" />
+      {console.log(`Listings ${propertyAddressData.property}`)}
+      <Nav linkStyle={{ color: 'black', textDecoration: 'none' }} navBarTitle="Listings" />
       <Grid
         style={{ marginTop: '3px' }}
         alignItems="flex-start"
@@ -42,8 +47,8 @@ const Listings: NextPage = ({ data }: any) => {
         container
         spacing={2}
       >
-        {data.map((property) => (
-          <Grid style={{ maxWidth: 345 }} key={property.identifier.obPropId} item sm={3} xs={12}>
+        {propertyAddressData.property.map((property) => (
+          <Grid className={classes.grid} key={property.identifier.obPropId} item sm={3} xs={12}>
             <Card className={classes.paper} elevation={1}>
               <CardActionArea>
                 <Link
@@ -72,30 +77,17 @@ const Listings: NextPage = ({ data }: any) => {
   );
 };
 
-Listings.getInitialProps = async function () {
-  const APIKey = getKey();
-  console.log(`API KEY IS ${APIKey}`);
-  const address = await fetch(
-    'http://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=82009&page=1&pagesize=10',
-    { headers: { accept: 'application/json', apikey: APIKey } },
-  );
+// Listings.getInitialProps = async () => {
+//   return { data: addressData.propertyAddressData };
+// };
 
-  const summary = await fetch(
-    'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detailwithschools?id=16237759912033',
-    { headers: { accept: 'application/json', apikey: APIKey } },
-  );
-  const addressData = await address.json();
-  const summaryData = await summary.json();
-
-  const combinedData = [...addressData, ...summaryData.property];
-  console.log(addressData);
-
-  return {
-    // properties: data.property.map((entry) => entry),
-    // summaries: summaryData.property.map((entry) => entry),
-    data: combinedData,
-  };
-};
+/**
+ *
+ */
+// export async function getStaticProps() {
+//   return {
+//     props: addressData.propertyAddressData,
+//   };
+// }
 
 export default Listings;
-// listings/[listing].tsx/property/[id].tsx

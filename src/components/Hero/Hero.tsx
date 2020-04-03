@@ -1,14 +1,20 @@
 import { IconButton, InputBase, Paper } from '@material-ui/core';
+import { HomeOutlined } from '@material-ui/icons';
 import SearchIcon from '@material-ui/icons/Search';
-import React from 'react';
+import { view } from '@risingstack/react-easy-state';
+import { useRouter } from 'next/router';
+import React, { useContext } from 'react';
+import { AddressContext } from '../../pages/_app';
 import styles from './Hero.module.css';
 
-const searchButtonClickHandler = (e: React.MouseEvent<HTMLElement>): void => {
-  e.preventDefault();
-  console.log('button clicked');
-};
+const Hero: React.FC<{
+  setZipcode?: any;
+  zipCode?: string;
+  fetchData?: any;
+}> = () => {
+  const { setZipcode, zipCode, fetchData } = useContext(AddressContext);
+  const router = useRouter();
 
-const Hero: React.FC = () => {
   return (
     <>
       <div className={styles.container}>
@@ -21,16 +27,33 @@ const Hero: React.FC = () => {
         <br />
         <br />
         <Paper className={styles.searchBar} component="form">
-          <InputBase className={styles.inputField} placeholder="Address, City, State, Zip Code" />
+          <InputBase
+            onChange={(event): void => {
+              setZipcode(event.target.value);
+              console.log(zipCode);
+            }}
+            className={styles.inputField}
+            placeholder="Zipcode"
+            startAdornment={<HomeOutlined />}
+          />
           <div className={styles.buttonBackground}>
-            <IconButton onClick={searchButtonClickHandler} className={styles.iconButton} type="submit">
+            <IconButton
+              onClick={(event): void => {
+                event.preventDefault();
+                fetchData();
+                router.push('/listings');
+              }}
+              className={styles.iconButton}
+              type="submit"
+            >
               <SearchIcon className={styles.searchIcon} />
             </IconButton>
           </div>
         </Paper>
+        {zipCode}
       </div>
     </>
   );
 };
 
-export default Hero;
+export default view(Hero);
