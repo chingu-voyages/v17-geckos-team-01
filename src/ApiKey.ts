@@ -1,5 +1,5 @@
 /**
- * @returns {string} An array of Api Keys
+ * @returns {string} A Random API key
  */
 function getKey(): string {
   const keysArray = process.env.KEYS_ARRAY;

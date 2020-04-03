@@ -17,7 +17,6 @@ const useStyles = makeStyles({
 const Post: NextPage = ({ details }: any) => {
   const pdetails = details.property[0];
   const classes = useStyles();
-
   return (
     <>
       <Nav linkStyle={{ color: 'black' }} navBarTitle={pdetails.address.line1} />
@@ -44,10 +43,10 @@ const Post: NextPage = ({ details }: any) => {
         </Grid>
 
         {/* <JSONPretty id="json-pretty" data={pdetails.building.summary}></JSONPretty>
-        <JSONPretty id="json-pretty" data={pdetails.summary}></JSONPretty>
-        <JSONPretty id="json-pretty" data={pdetails.lot}></JSONPretty>
-        <JSONPretty id="json-pretty" data={pdetails.school}></JSONPretty>
-        <JSONPretty id="json-pretty" data={pdetails.address}></JSONPretty> */}
+          <JSONPretty id="json-pretty" data={pdetails.summary}></JSONPretty>
+          <JSONPretty id="json-pretty" data={pdetails.lot}></JSONPretty>
+          <JSONPretty id="json-pretty" data={pdetails.school}></JSONPretty>
+          <JSONPretty id="json-pretty" data={pdetails.address}></JSONPretty> */}
       </Grid>
       {/* Check if we require more details from other api's */}
     </>
@@ -56,15 +55,10 @@ const Post: NextPage = ({ details }: any) => {
 
 Post.getInitialProps = async function (context) {
   const { id } = context.query;
-  // 20095379556021&426 LOGISTICS DR&CHEYENNE, WY 82009
-  // regex split on &
-  const [propertyId, address, cityStateZip] = (id as string).split('&');
 
-  console.log(propertyId, address, cityStateZip);
-  const res = await fetch(
-    `https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detailwithschools?id=${propertyId}`,
-    { headers: { accept: 'application/json', apikey: '43fdb0bba16b6d9bb945439813e6fcac' } },
-  );
+  const res = await fetch(`https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detail?id=${id}`, {
+    headers: { accept: 'application/json', apikey: process.env.KEYS_ARRAY },
+  });
 
   const details = await res.json();
 
