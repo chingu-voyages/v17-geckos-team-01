@@ -1,4 +1,4 @@
-import { Typography, IconButton, TextField } from '@material-ui/core';
+import { IconButton, Typography } from '@material-ui/core';
 import { styled } from '@material-ui/core/styles';
 
 const StyledIconButton = styled(IconButton)({
@@ -9,11 +9,5 @@ const StyledIconButton = styled(IconButton)({
 const StyledTypography = styled(Typography)({
   flex: 1,
 });
-
-// const StyledTextField = styled(TextField)`
-//   ${({ theme }) => `
-
-//   `}
-// `;
 
 export { StyledIconButton, StyledTypography };
