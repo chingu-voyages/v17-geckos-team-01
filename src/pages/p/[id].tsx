@@ -20,7 +20,7 @@ const Post: NextPage = ({ details }: any) => {
   return (
     <>
       <Nav linkStyle={{ color: 'black' }} navBarTitle={pdetails.address.line1} />
-      <Grid container spacing={2}>
+      <Grid style={{ marginTop: '3px' }} container spacing={2}>
         <Grid item xs>
           <Paper className={classes.root} elevation={1}>
             <JSONPretty id="json-pretty" data={pdetails.address}></JSONPretty>

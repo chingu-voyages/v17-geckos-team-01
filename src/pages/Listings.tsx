@@ -6,16 +6,16 @@ import {
   CardContent,
   CardHeader,
   Grid,
-  makeStyles,
   Typography,
+  makeStyles,
 } from '@material-ui/core';
 import fetch from 'isomorphic-unfetch';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import React from 'react';
-import { Nav } from '../component.exports';
 import getKey from '../ApiKey';
-import { FlashOnOutlined } from '@material-ui/icons';
+import { Nav } from '../component.exports';
+import Log from '../util/Logger';
 
 const useStyles = makeStyles({
   root: {
@@ -38,7 +38,7 @@ const Listings: NextPage<{ data: any }> = ({ data }) => {
 
   return (
     <>
-      {console.log(`Listings ${data}`)}
+      {Log.info(`Listings ${data}`, 'Listings Component')}
       <Nav linkStyle={{ color: 'black', textDecoration: 'none' }} navBarTitle="Listings" />
       <Grid
         style={{ marginTop: '3px' }}
@@ -88,6 +88,10 @@ function URLify(string): string {
   return str;
 }
 
+interface PropertySales {
+  sale: any;
+}
+
 Listings.getInitialProps = async function (ctx) {
   const query = ctx.query.postalcode;
   const address = await fetch(
@@ -96,16 +100,14 @@ Listings.getInitialProps = async function (ctx) {
   );
 
   const addressData = await address.json();
-  console.log(`Address Data${addressData}`);
+  Log.info(`Address Data ${addressData}`, 'getInitialProps');
 
   const addressSalesArray = await Promise.all(
     addressData.property.map(async (property) => {
-      //   const xyz = 'hello';
       const address1 = URLify(property.address.line1);
       const address2 = URLify(property.address.line2);
-      console.log(`address1 and address 2${address1} ${address2}`);
-      //const saleData = async function (address1, address2) {
-      const sale = await fetch(
+      Log.info(`address1 and address 2 ${address1} ${address2}`, 'getInitialProps');
+      const sale: Response = await fetch(
         `http://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/detail?address1=${address1}&address2=${address2}`,
         { headers: { accept: 'application/json', apikey: getKey() } },
       )
@@ -113,21 +115,19 @@ Listings.getInitialProps = async function (ctx) {
           if (response.status !== 200) {
             return;
           } else {
-            console.log(response);
+            Log.info(response, 'getInitialProps');
             return response.json();
           }
         })
         .then((data) => {
-          console.log(`Data is ${data}`);
+          Log.info(`Data is ${data}`, 'getInitialProps');
           return data;
         });
-      // return sale.json();
-      //};
-      console.log(`Sale Data is ${JSON.stringify(sale)}`);
+      Log.info(`Sale Data is ${JSON.stringify(sale)}`, 'getInitialProps');
       return { property, sale };
     }),
   );
-  const addressSalesFilter = addressSalesArray.filter((propertySales) => {
+  const addressSalesFilter = addressSalesArray.filter((propertySales: PropertySales) => {
     if (
       propertySales.sale == undefined ||
       propertySales.sale.status.msg.includes('No data available') ||
@@ -137,7 +137,7 @@ Listings.getInitialProps = async function (ctx) {
     }
     return true;
   });
-  console.log(`address sales array is ${JSON.stringify(addressSalesFilter)}`);
+  Log.info(`address sales array is ${JSON.stringify(addressSalesFilter)}`, 'getInitialProps');
   return { query: query, data: addressSalesFilter };
 };
 
