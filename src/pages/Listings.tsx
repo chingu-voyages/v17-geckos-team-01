@@ -16,6 +16,8 @@ import React from 'react';
 import { Nav } from '../component.exports';
 import getKey from '../ApiKey';
 import { FlashOnOutlined } from '@material-ui/icons';
+import { createStore } from 'redux';
+import { store, ADD_DATA, addData, dataReducer } from './_app';
 
 const useStyles = makeStyles({
   root: {
@@ -36,6 +38,8 @@ const useStyles = makeStyles({
 const Listings: NextPage<{ data: any }> = ({ data }) => {
   const classes = useStyles();
 
+  store.dispatch(addData(data));
+
   return (
     <>
       {console.log(`Listings ${data}`)}
@@ -48,11 +52,11 @@ const Listings: NextPage<{ data: any }> = ({ data }) => {
         container
         spacing={2}
       >
-        {data.map(({ property, sale }) => (
+        {data.map(({ property, sale }, index) => (
           <Grid className={classes.grid} key={property.identifier.obPropId} item sm={3} xs={12}>
             <Card className={classes.paper} elevation={1}>
               <CardActionArea>
-                <Link href="/p/[id]" as={`/p/${property.identifier.obPropId}`}>
+                <Link href="/p/[id]" as={`/p/${index}`}>
                   <CardHeader subheader={property.address.line2} title={property.address.line1}>
                     <a>{property.address.line1}</a>
                   </CardHeader>
@@ -96,14 +100,12 @@ Listings.getInitialProps = async function (ctx) {
   );
 
   const addressData = await address.json();
-  console.log(`Address Data${addressData}`);
 
   const addressSalesArray = await Promise.all(
     addressData.property.map(async (property) => {
       //   const xyz = 'hello';
       const address1 = URLify(property.address.line1);
       const address2 = URLify(property.address.line2);
-      console.log(`address1 and address 2${address1} ${address2}`);
       //const saleData = async function (address1, address2) {
       const sale = await fetch(
         `http://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/detail?address1=${address1}&address2=${address2}`,
@@ -113,20 +115,18 @@ Listings.getInitialProps = async function (ctx) {
           if (response.status !== 200) {
             return;
           } else {
-            console.log(response);
             return response.json();
           }
         })
         .then((data) => {
-          console.log(`Data is ${data}`);
           return data;
         });
       // return sale.json();
       //};
-      console.log(`Sale Data is ${JSON.stringify(sale)}`);
       return { property, sale };
     }),
   );
+
   const addressSalesFilter = addressSalesArray.filter((propertySales) => {
     if (
       propertySales.sale == undefined ||
@@ -137,7 +137,7 @@ Listings.getInitialProps = async function (ctx) {
     }
     return true;
   });
-  console.log(`address sales array is ${JSON.stringify(addressSalesFilter)}`);
+
   return { query: query, data: addressSalesFilter };
 };
 

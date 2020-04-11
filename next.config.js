@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const keysArray = process.env.ATTOMDATA_KEYS.split(',');
+const keysArray = '8566559ae0bd5df7ec40e3878af54ce5';
 module.exports = {
   env: {
     KEYS_ARRAY: keysArray,
