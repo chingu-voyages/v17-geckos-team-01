@@ -2,29 +2,37 @@
   "name": "team-gecko-o1-mock",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "13.12.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
+    "@risingstack/react-easy-state": "^6.2.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "babel-plugin-import": "^1.13.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.3.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
-    "sass": "^1.26.3",
+    "preact": "^10.3.4",
+    "preact-context-provider": "^1.2.1",
+    "preact-render-to-string": "^5.1.4",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
+    "react-json-pretty": "^2.2.0",
+    "react-redux": "^7.2.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
+    "redux": "^4.0.5",
     "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "next start",
     "dev": "next",
     "build": "next build",
-    "test": "react-scripts test",
+    "lint": "eslint --cache --ext .jsx,.tsx ./src",
+    "lint:types": "type-coverage --at-least 90 --cache ./src",
+    "lint:tscoverage": "typescript-coverage-report ./src",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -45,9 +53,9 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@next/bundle-analyzer": "^9.3.1",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
+    "debug": "^4.1.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
@@ -55,9 +63,11 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "husky": "^4.2.3",
+    "husky": "^4.2.5",
     "lint-staged": "^10.0.8",
-    "prettier": "^2.0.1"
+    "prettier": "^2.0.1",
+    "type-coverage": "^2.4.2",
+    "typescript-coverage-report": "^0.1.2"
   },
   "husky": {
     "hooks": {

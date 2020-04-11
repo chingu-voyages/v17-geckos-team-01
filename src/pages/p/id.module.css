@@ -1,0 +1,117 @@
+.root {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.viewing {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+.topInfo {
+  color: white;
+  background-color: #a284e0;
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 50% 12.5% 12.5% 12.5% 12.5%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.picAndDescription {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.stockHouse img {
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  padding: 3px 0 0 10px;
+  line-height: 1.5em;
+}
+
+.addressAndPrice {
+  /* color: white; */
+  font-size: 2em;
+  text-align: center;
+}
+
+.statValue {
+  font-size: 1em;
+}
+
+.statLabel {
+  font-size: 0.5em;
+}
+
+.FavShare {
+  font-size: 0.7em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  transition: ease-in 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FavShare a {
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.favButton,
+.shareButton {
+  padding: 10px;
+}
+
+.favButton:hover {
+  background-color: #9370db;
+  transition: ease-in 0.2s;
+  color: white;
+  border-radius: 3px;
+}
+
+.shareButton:hover {
+  background-color: #9370db;
+  transition: ease-in 0.2s;
+  color: white;
+  border-radius: 3px;
+}
+
+.cardContent {
+  margin: 0 auto;
+}
+
+.keyDetailsList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.keyDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  padding-top: 1rem;
+}
+
+.spanHeader {
+  color: gray;
+  font-size: 1.2em;
+}
+
+.spanInfo {
+  font-size: 1.2em;
+}
+.mapPic img {
+  width: 100%;
+}
