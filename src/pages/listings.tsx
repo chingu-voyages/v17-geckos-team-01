@@ -6,8 +6,8 @@ import {
   CardContent,
   CardHeader,
   Grid,
-  Typography,
   makeStyles,
+  Typography,
 } from '@material-ui/core';
 import fetch from 'isomorphic-unfetch';
 import { NextPage } from 'next';
@@ -16,9 +16,7 @@ import React from 'react';
 import getKey from '../ApiKey';
 import { Nav } from '../component.exports';
 import Log from '../util/Logger';
-import { FlashOnOutlined } from '@material-ui/icons';
-import { createStore } from 'redux';
-import { store, ADD_DATA, addData, dataReducer } from './_app';
+import { addData, store } from './_app';
 
 const useStyles = makeStyles({
   root: {
@@ -93,15 +91,12 @@ function URLify(string): string {
   return str;
 }
 
-interface PropertySales {
-  sale: any;
-}
-
 Listings.getInitialProps = async function (ctx) {
+  const API_KEY = getKey();
   const query = ctx.query.postalcode;
   const address = await fetch(
     `http://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=${query}&page=1&pagesize=10`,
-    { headers: { accept: 'application/json', apikey: getKey() } },
+    { headers: { accept: 'application/json', apikey: API_KEY } },
   );
 
   const addressData = await address.json();
@@ -111,10 +106,9 @@ Listings.getInitialProps = async function (ctx) {
     addressData.property.map(async (property) => {
       const address1 = URLify(property.address.line1);
       const address2 = URLify(property.address.line2);
-      //const saleData = async function (address1, address2) {
       const sale = await fetch(
         `http://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/detail?address1=${address1}&address2=${address2}`,
-        { headers: { accept: 'application/json', apikey: getKey() } },
+        { headers: { accept: 'application/json', apikey: API_KEY } },
       )
         .then(function (response) {
           if (response.status !== 200) {
@@ -126,13 +120,11 @@ Listings.getInitialProps = async function (ctx) {
         .then((data) => {
           return data;
         });
-      // return sale.json();
-      //};
       return { property, sale };
     }),
   );
 
-  const addressSalesFilter = addressSalesArray.filter((propertySales) => {
+  const addressSalesFilter = addressSalesArray.filter((propertySales: any) => {
     if (
       propertySales.sale == undefined ||
       propertySales.sale.status.msg.includes('No data available') ||
