@@ -95,7 +95,7 @@ Listings.getInitialProps = async function (ctx) {
   const API_KEY = getKey();
   const query = ctx.query.postalcode;
   const address = await fetch(
-    `http://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=${query}&page=1&pagesize=10`,
+    `https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=${query}&page=1&pagesize=10`,
     { headers: { accept: 'application/json', apikey: API_KEY } },
   );
 
@@ -107,7 +107,7 @@ Listings.getInitialProps = async function (ctx) {
       const address1 = URLify(property.address.line1);
       const address2 = URLify(property.address.line2);
       const sale = await fetch(
-        `http://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/detail?address1=${address1}&address2=${address2}`,
+        `https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/detail?address1=${address1}&address2=${address2}`,
         { headers: { accept: 'application/json', apikey: API_KEY } },
       )
         .then(function (response) {
