@@ -27,7 +27,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "next start",
+    "start": "next start -p $PORT",
     "dev": "next",
     "build": "next build",
     "lint": "eslint --cache --ext .jsx,.tsx ./src",
