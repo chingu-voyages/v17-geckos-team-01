@@ -91,8 +91,8 @@ function URLify(string): string {
   return str;
 }
 
+const API_KEY = getKey();
 Listings.getInitialProps = async function (ctx) {
-  const API_KEY = getKey();
   const query = ctx.query.postalcode;
   const address = await fetch(
     `https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=${query}&page=1&pagesize=10`,

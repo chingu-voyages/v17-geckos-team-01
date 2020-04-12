@@ -2,6 +2,12 @@ require('dotenv').config();
 
 const keysArray = process.env.ATTOMDATA_KEYS.split(',');
 
+if (typeof window !== 'undefined') {
+  if (process.env.NODE_ENV !== 'production') {
+    localStorage.setItem('debug', 'team-gecko-app:*');
+  }
+}
+
 module.exports = {
   env: {
     KEYS_ARRAY: keysArray,
